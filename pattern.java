@@ -1,18 +1,9 @@
 public class pattern {
     public static void main(String[] args) {
-        p(4);
+        p31(4);
     }
 
     static void p31(int n){
-        for (int i = 1; i < 2*n; i++) {
-            for (int j = n; j >=1; j--) {
-                System.out.println(j);
-            }
-            System.out.println();
-        }
-    }
-
-    static void p(int n){
         int orig = n;
         n = 2 * n-2;
         for (int i = 0; i <= n; i++) {
